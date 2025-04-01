@@ -1,0 +1,364 @@
+body{
+    margin: 0px;
+}
+
+.nav-container{
+    position:sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #ffb3c6;
+}
+
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    color: #ffe5ec;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Arc-en-ciel_comestible.jpg/1920px-Arc-en-ciel_comestible.jpg");
+}
+
+.banner-container{
+    text-align: center;
+    padding: 15% 0;
+
+}
+
+.banner h1{
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4) ;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.banner p{
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2) ;
+}
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    background-color: #ffb3c6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 18rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: arial ;
+    text-align: center;
+}
+
+.card .img {
+    width: 45px;
+    height: 2px;
+}
+
+.price {
+    color: #fb6f92;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #ffe5ec;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+
+.card button:hover{
+    opacity: 0.7;
+}
+
+
+.modal-container{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #ffe5ec;
+    background-color: #ffc2d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color:none;
+}
+
+.modal-container::-webkit-scrollbar{
+    display: none;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe5ec;
+    color: #fb6f92;
+    width: 100%;
+}
+
+.modal-header-title{
+    justify-self: start;
+}
+
+.modal-header-button{
+    cursor: pointer;
+}
+
+.modal-container > .modal-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    width: 60%;
+    margin: 10px;
+
+}
+
+.modal-container > div > img {
+    height: 150px;
+    width: 150px;
+}
+
+.total-content{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.delete-product{
+    cursor:pointer;
+    font-size: x-large;
+}
+
+.cantidad-carrito{
+    background-color: #fb6f92  ;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+
+.sumar{
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.restar{
+    cursor: pointer;
+    font-size: x-large;
+}
+
+
+
+
+
+
+footer{
+    margin-top: 2rem;
+
+    .bi{
+        font-size: 4vh;
+        color:#fb6f92;
+    }
+}
+
+.footer-edit{
+    text-align: center;
+}
+
+.title-footer{
+    height: 20px;
+    color: #fb6f92;
+    font-size: x-large;
+}
+
+footer p {
+    font-size: medium;
+    color: #fb6f92;
+}
+
+
+
+
+.modal-header {
+    background-color: #ffc1cc; 
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-header-title {
+    color: #d96c77;
+    font-size: 22px;
+}
+
+.modal-content {
+    background-color: #ffe4e1;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.total-content {
+    background-color: #ffc1cc;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.pagar{
+    cursor: pointer;
+    background-color: #ffe4e1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pago-form{
+    background-color: #ffc1cc;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.confiPago{
+    cursor: pointer;
+    background-color: #ffc1cc;
+    padding: 7px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.confiFin{
+    cursor: pointer;
+    background-color: #ffc1cc;
+    padding: 7px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.confiCerrar{
+    cursor: pointer;
+    background-color: #ffc1cc;
+    padding: 7px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pago-container {
+    background-color: #ffe4e1; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pago-container h2 {
+    color: #d96c77;
+    font-size: 22px;
+}
+
+.pago-container p {
+    font-size: 18px;
+    color: #444;
+}
+
+.pago-container input {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.pago-container button {
+    background-color: #ffb6c1; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pago-container button:hover {
+    background-color: #ff8c94;
+}
+
+
+.vuelto-container {
+    background-color: #ffe4e1;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.vuelto-container p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d96c77;
+}
+
+.agradecimiento {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-top: 15px;
+}

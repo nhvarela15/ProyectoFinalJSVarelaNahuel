@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Macaron de Pistacho",
+        "precio": 2500,
+        "img": "https://www.betular.com/cdn/shop/files/PISTACHO.jpg?v=1721323035&width=2048",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Macaron de Avellanas",
+        "precio": 2000,
+        "img": "https://www.betular.com/cdn/shop/files/AVELLANA.jpg?v=1721323035&width=2048",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Macaron de Coco",
+        "precio": 1800,
+        "img": "https://www.betular.com/cdn/shop/files/COCO-Y-DDL.jpg?v=1721323012&width=2048",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Macaron de Limón",
+        "precio": 1600,
+        "img": "https://www.betular.com/cdn/shop/files/LIMON.jpg?v=1721323034&width=2048",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Macaron de Maní",
+        "precio": 1600,
+        "img": "https://www.betular.com/cdn/shop/files/MANI.jpg?v=1721323034&width=2048",
+        "cantidad": 1
+    }
+]
