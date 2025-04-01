@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    
 }
 
 .nav-container{
@@ -95,7 +96,7 @@ body{
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #ffe5ec;
+    background-color: #fb6f92;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -173,6 +174,7 @@ body{
     font-size: x-large;
 }
 
+
 .cantidad-carrito{
     background-color: #fb6f92  ;
     color: white;
@@ -202,6 +204,7 @@ body{
 
 footer{
     margin-top: 2rem;
+    background-color: #ffc2d1;
 
     .bi{
         font-size: 4vh;
@@ -240,7 +243,7 @@ footer p {
 }
 
 .modal-content {
-    background-color: #ffe4e1;
+    background-color: #ff8c94;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;

@@ -9,12 +9,13 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 const getProducts = async () => {
 try {
-    const response = await fetch("data.json");
+    const response = await fetch("https://api.jsonbin.io/v3/b/67ec510b8561e97a50f6f373");
     if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
 }
 
-    const data = await response.json();
+const jsonData = await response.json(); 
+const data = jsonData.record; 
     data.forEach((producto) => {
     let content = document.createElement("div");
     content.className = "card";
@@ -81,7 +82,7 @@ const mostrarAgradecimiento = (modalContainer) => {
             duration: 2000,
             gravity: "bottom",
             position: "right",
-            backgroundColor: "#ffb3c6"
+            backgroundColor: "#B191FF"
         }).showToast();
         modalContainer.style.display = "none";
     });
